@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: rgba(122, 247, 215, 0.767);
+}
+div.new {
+    color: blue;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+p div{
+    color: chartreuse;
+    font-size: 25px;
+}
+a:link {
+    background-color: aqua;
+    font-size: 25px;
+}
+a:hover {
+    background-color: burlywood;
+    font-size: 35px;
+}
