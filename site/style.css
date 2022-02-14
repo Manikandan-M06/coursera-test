@@ -1,21 +1,33 @@
-body {
-    text-align: center;
-    background-color: rgba(122, 247, 215, 0.767);
+*{
+    box-sizing:border-box;
+    margin:0px;
+ }
+ body{
+     background:url("https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png") 
+     no-repeat top center rgb(146, 247, 151);
+ }
+#box{
+    background-color:crimson;
+    margin:10px;
+    border:5px solid black;
+    padding:10px;
+    height:450px;
 }
-div.new {
-    color: blue;
-    font-size: 35px;
-    text-transform: capitalize;
+#div1{
+    background-color:rgb(103, 104, 196);
+    margin:10px;
+    border:5px solid black;
+    padding:10px;
+    width:50%;
+    height:400px;
+    float:right;
 }
-p div{
-    color: chartreuse;
-    font-size: 25px;
-}
-a:link {
-    background-color: aqua;
-    font-size: 25px;
-}
-a:hover {
-    background-color: burlywood;
-    font-size: 35px;
+#div2{
+    background-color:rgb(245, 238, 144);
+    margin:10px;
+    border:5px solid black;
+    padding:10px;
+    width:50%;
+    height:400px;
+    
 }
