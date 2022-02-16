@@ -1,33 +1,79 @@
 *{
     box-sizing:border-box;
-    margin:0px;
- }
- body{
-     background:url("https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png") 
-     no-repeat top center rgb(146, 247, 151);
- }
-#box{
-    background-color:crimson;
-    margin:10px;
-    border:5px solid black;
-    padding:10px;
-    height:450px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#div1{
-    background-color:rgb(103, 104, 196);
-    margin:10px;
-    border:5px solid black;
-    padding:10px;
-    width:50%;
-    height:400px;
-    float:right;
+body{
+    background:rgb(255, 254, 200);
+    margin:15px;
+    font-weight:bold;
 }
-#div2{
-    background-color:rgb(245, 238, 144);
-    margin:10px;
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.col{
+    padding:40px 20px 20px 20px;
+    font-style:italic;
+    font-size:18px;
+    margin:20px;
+    background:rgb(146, 182, 250);
     border:5px solid black;
-    padding:10px;
-    width:50%;
-    height:400px;
-    
+    position:absolute;
+}
+.title{
+    text-align:center;
+    border:3px solid black;
+    position:absolute;
+    top:-27px;
+    right:-3px;
+    width:100px;
+    height:30px;
+    font-size:25px;
+}
+.title1{
+    background:rgb(243, 128, 128);
+}
+.title2{
+    background:rgb(252, 59, 59);
+}
+.title3{
+    background:rgb(218, 241, 114);
+}
+@media(min-width:992px){
+    .col1{
+        width:28%;
+
+    }
+    .col2{
+        width:28%;
+        left:35%;
+    }
+    .col3{
+        width:28%;
+        right:0;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .col1{
+        width:45%;
+    }
+    .col2{
+        width:45%;
+        right:0;
+    }
+    .col3{
+        width:94.5%;
+        top:77%;
+    }
+}
+@media(max-width:767px){
+    .col1{
+        position:relative;
+    }
+    .col2{
+        position:relative;
+    }
+    .col3{
+        position:relative;
+    }
 }
