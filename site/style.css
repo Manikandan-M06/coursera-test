@@ -17,15 +17,15 @@ h1{
     font-size:18px;
     margin:20px;
     background:rgb(146, 182, 250);
-    border:5px solid black;
+    border:1px solid black;
     position:absolute;
 }
 .title{
     text-align:center;
-    border:3px solid black;
+    border:1px solid black;
     position:absolute;
-    top:-27px;
-    right:-3px;
+    top:-26px;
+    right:-1px;
     width:100px;
     height:30px;
     font-size:25px;
